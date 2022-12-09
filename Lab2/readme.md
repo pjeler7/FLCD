@@ -1,4 +1,3 @@
-![pif1](https://user-images.githubusercontent.com/80889536/206700876-8e7e644b-1331-4a6d-b4fa-286d65d0b61d.png)
 LFTC_lab2
 Statement: Use lex to perform scanning for your programming language
 

@@ -1,0 +1,19 @@
+namespace principles
+{
+	public class program
+	{
+		static void Main()
+		{
+			int number = ReadLine();	
+			int prod = 1;
+			while (number != 0)
+			{
+				prod *= number % 10;
+				number /= 10;
+			}
+
+			WriteLine(prod);
+			ReadKey();
+		}
+	}
+}

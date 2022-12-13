@@ -7,13 +7,22 @@ Statement: Write a program that reads the elements of a finite automaton from a 
 
 
 statement ::= initialStatement | finalStatement | normalStatement 
+
 transition ::= statement, alphabet „->” statement 
+
 alphabet ::= letter | digit 
+
 letter ::= „a” | „b” | ... | „y” | „z” | „A” | „B” | ... | „Y” | „Z” 
+
 digit ::= "0" | "1" | ... | "9" 
+
 initialStatement ::= „{” „q” „0” „}” 
+
 finalStatement ::= „[” „q” digit „]” 
+
 normalStatement ::= „(” „q” digit „)” 
+
+
 
 Based on transitions from text file the result is:
 

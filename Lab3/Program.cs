@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lab3 // Note: actual namespace depends on the project name.
+namespace Lab3
 {
     public class Program
     {
